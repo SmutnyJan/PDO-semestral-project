@@ -1,30 +1,81 @@
-# Tvorba 2D platformer hry ve zvoleném herním enginus
-## Představení projektu
-Bakalářská práce se zabývá vytvořením 2D platformer hry ve zvoleném herním enginu.
+# Tvorba 2D platformer hry v Unity  
 
-# Cílové skupiny a typ dokumentace
-## Hráč
-- **Typ návodu:** webová wiki/žádný
-- **Obsah návodu:**
-    - Informace o herních itemech
-    - Informace o pokročilých funkcích a herních mechanikách, které nejsou zřejmě z herního projevu
-    - Známé herní bugy a jak jim předejít
-- Potřebuje vědět hardwarovou náročnost (minimum hardware requirements)
-- Dostupná webová wiki pro nalezení potřebných informací
-- V zásadě by ale návody neměly být potřeba a vše by mělo být patrné z produktu
+## Představení projektu  
+Tato bakalářská práce se zaměřuje na vytvoření 2D platformer hry v herním enginu Unity.
 
-## Tester
-- **Typ návodu:** textový dokument/webová wiki
-- **Obsah návodu:**
-- Potřebuje vědět, jak mají jednotlivé aspekty hry fungovat (aby mohl porovnat s reálnou funkcionalitou)
-- Potřebuje znát dodatečné informace o technické stránce (kam se ukládá herní save)
-- Zároveň se ale jedná stále o formu hráče, takže se na něj vztahují stejné požadavky jako na hráče
+## Cílové skupiny a typ dokumentace  
 
-## Herní vývojář
-- **Typ návodu:** technická dokumentace
-- **Obsah návodu:**
-    - Způsob vytvoření jednotlivých herních mechanik a jak je replikovat ve vlastní hře (zdrojový kód/návrhový diagram)
-- Potřebuje přístup ke zdrojovému kódu
-- Nezajímá ho příběh hry
+### Hráč  
+- **Typ návodu:** webová wiki / žádný  
+- **Obsah návodu:**  
+  - Informace o herních itemech  
+  - Popis pokročilých funkcí a herních mechanik, které nejsou na první pohled zřejmé  
+  - Známé herní bugy a jak jim předejít  
+- **Další potřeby:**  
+  - Přehled minimálních hardwarových požadavků  
+  - Možnost vyhledání informací v online wiki, pokud se vyskytne nejasnost  
+  - Herní mechaniky by měly být intuitivní, takže návod by neměl být nutný k pochopení hry  
 
+### Tester  
+- **Typ návodu:** textový dokument / webová wiki  
+- **Obsah návodu:**  
+  - Popis očekávaného chování jednotlivých herních prvků pro porovnání s reálnou funkcionalitou  
+  - Technické informace, například umístění souborů s uloženou hrou  
+  - Seznam známých bugů a postup jejich reprodukce  
+  - Testovací scénáře pro ověření funkčnosti klíčových mechanik  
+- **Poznámka:** Tester se částečně překrývá s hráčem, takže potřebuje přístup i k hráčské dokumentaci  
 
+### Herní vývojář  
+- **Typ návodu:** technická dokumentace  
+- **Obsah návodu:**  
+  - Podrobný popis implementace jednotlivých herních mechanik  
+  - Zdrojový kód a návrhové diagramy pro možnost replikace mechanik ve vlastní hře  
+  - Přehled architektury projektu (složková struktura, použitá rozšíření/knihovny)  
+- **Další potřeby:**  
+  - Přístup ke zdrojovému kódu  
+  - Herní příběh není relevantní, zaměřuje se primárně na technickou stránku hry  
+
+## Osnova návodu pro testera
+
+## 1. Úvod  
+- Cíl dokumentace (usnadnění testování, nalezení chyb)  
+- Stručný popis hry a jejích hlavních mechanik  
+- Jaké aspekty hry budou testovány  
+
+## 2. Hardwarové požadavky  
+- Minimální požadavky  
+- Doporučené požadavky  
+
+## 3. Instalace a spuštění hry  
+- Kde stáhnout a jak nainstalovat  
+- Jak spustit hru  
+- Případné parametry spouštění  
+
+## 4. Herní mechaniky a očekávané chování  
+- Seznam klíčových mechanik hry  
+- Očekávané chování každé mechaniky  
+- Jak se projevují případné chyby  
+
+## 5. Herní uložené pozice  
+- Kde se ukládají soubory s uloženou hrou  
+- Jak zálohovat a obnovit save  
+- Možnosti resetování hry  
+
+## 6. Známé chyby a jejich reprodukce  
+- Seznam aktuálních bugů  
+- Kroky k jejich reprodukci  
+- Možná řešení nebo dočasné opravy  
+
+## 7. Testovací scénáře  
+- Struktura testovacího scénáře (název, popis, kroky, očekávaný výsledek)  
+- Příklad jednoduchého testovacího scénáře  
+- Seznam testovacích scénářů pro různé části hry  
+
+## 8. Záznam chyb a reportování  
+- Jak zaznamenávat nalezené chyby (screenshoty, videa, logy)  
+- Kam a jak chyby hlásit  
+- Jaký formát by měl mít bug report  
+
+## 9. Závěr  
+- Shrnutí důležitých bodů  
+- Kam směřovat dotazy nebo zpětnou vazbu  
