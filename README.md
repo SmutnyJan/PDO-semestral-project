@@ -58,7 +58,7 @@ Vysvětlení pojmů:
 ### Neintuitivní chování
 - Nejedná se o bug, ale chování je neočekávané
 - **Příklady:**
-  - Hráč by nečekal, že když v testu nezaškrtne políčko a dá „Odeslat“, tak se test odešle
+  - Hráč by nečekal, že když v testu nezaškrtne žádné políčko a dá „Odeslat“, tak se test odešle
   - Cutscény lze přeskočit i pomocí kláves `E` nebo `NUM ENTER`
 
 ### Lehký bug
