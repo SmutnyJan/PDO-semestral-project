@@ -1,81 +1,123 @@
-# Tvorba 2D platformer hry v Unity  
+# Návod k testování TULtimátní hry
 
-## Představení projektu  
-Tato bakalářská práce se zaměřuje na vytvoření 2D platformer hry v herním enginu Unity.
+## Inicializace hry a otevření složky s logy a savy
+### Inicializace hry
+**Rozsah:** 0.5 strany  
+- Stažení zipu z Google Disku (zip obsahuje vybuilděnou hru v `.exe` a složku s herními savy a presety nastavení v podobě souborů JSON pro jednodušší a přesnější testování)
+- Spuštění hry pro prvotní ověření funkčnosti  
 
-## Cílové skupiny a typ dokumentace  
+### Otevření složky s logy a savy
+- Otevření cesty `dataPersistentPath`, ověření, že uživatel vidí soubory JSON  
 
-### Hráč  
-- **Typ návodu:** webová wiki / žádný  
-- **Obsah návodu:**  
-  - Informace o herních itemech  
-  - Popis pokročilých funkcí a herních mechanik, které nejsou na první pohled zřejmé  
-  - Známé herní bugy a jak jim předejít  
-- **Další potřeby:**  
-  - Přehled minimálních hardwarových požadavků  
-  - Možnost vyhledání informací v online wiki, pokud se vyskytne nejasnost  
-  - Herní mechaniky by měly být intuitivní, takže návod by neměl být nutný k pochopení hry  
+## Technicko-herní wiki
+**Rozsah:** 5-6 strany  
+Popis všech herních aspektů ze strany technické funkcionality.
 
-### Tester  
-- **Typ návodu:** textový dokument / webová wiki  
-- **Obsah návodu:**  
-  - Popis očekávaného chování jednotlivých herních prvků pro porovnání s reálnou funkcionalitou  
-  - Technické informace, například umístění souborů s uloženou hrou  
-  - Seznam známých bugů a postup jejich reprodukce  
-  - Testovací scénáře pro ověření funkčnosti klíčových mechanik  
-- **Poznámka:** Tester se částečně překrývá s hráčem, takže potřebuje přístup i k hráčské dokumentaci  
+### Prvotní testování hry
+- Tester by měl projít hru sám, bez jakéhokoliv návodu/pomoci
+- Zhodnocení herního zážitku, smysluplnosti příběhu a intuitivnosti herních funkcí  
 
-### Herní vývojář  
-- **Typ návodu:** technická dokumentace  
-- **Obsah návodu:**  
-  - Podrobný popis implementace jednotlivých herních mechanik  
-  - Zdrojový kód a návrhové diagramy pro možnost replikace mechanik ve vlastní hře  
-  - Přehled architektury projektu (složková struktura, použitá rozšíření/knihovny)  
-- **Další potřeby:**  
-  - Přístup ke zdrojovému kódu  
-  - Herní příběh není relevantní, zaměřuje se primárně na technickou stránku hry  
+### Technické aspekty hry
+- **Herní flow z pohledu scén**  
+  - Jaká scéna se načte jako první?
+  - Do jaké scény se načtu, když vejdu sem a sem?
+  - V jaké scéně se odehrává finální cutscéna?
+- **Save system a formát souborů JSON**  
+  - Co znamenají konkrétní atributy v souboru `settings.json`?
+  - Kdy se načítá obsah souborů?
+  - Kdy se do souborů ukládá?
+  - Jak vypadá mapování scén a předmětů na čísla?
+  - Jak se ukládá herní postup v rámci levelu?
+- **Herní předměty**  
+  - Za jak dlouho se vypne efekt zvýšení rychlosti?
+- **Herní inventář**  
+  - Co se stane, když použiji předmět a hned si ho „odvybavím“?
+- **Herní nastavení**  
+  - Co se má stát, když zapnu VSync?
+  - Jak si zvolím sběr zvuku z jiného mikrofonu?
+  - Kdy se nastavení uloží (tlačítko „Zpět“ bez stisknutí tlačítka „Uložit“ nastavení obnoví do původní podoby)?
+- **Měnění ročního období**  
+  - Jaké všechny věci mění (collidery, fyzické vlastnosti)?
+  - Kdy se provede?
+- …  
 
-## Osnova návodu pro testera
+## Ustanovení použitých pojmů v testovacích scénářích
+**Rozsah:** maximálně 1 strana  
+Vysvětlení pojmů:
+- **Vytvořit novou hru** - spustit hru a kliknout na tlačítko „Nová hra“
+- **Načíst hru** - spustit hru a kliknout na tlačítko „Načíst“
+- **Udělat nový save** - Smazat všechny soubory JSON (soubor s nastavením se při spuštění nové hry nemaže)
+- **Načíst save -název savu-** - nahrání obsahu uvedeného souboru JSON do specifikovaného save souboru  
+  - `Načti save settingsA.json do settings.json`
+  - `Načti save final_level.json do progress.json`
+- **Shodit hru** - vypnout hru jinak než přes herní UI (Správce úloh, ALT + F4, vypnutí PC, BSOD atd.)
+- **Jít do levelu -jméno levelu-** - dojít na místo, které způsobí načtení daného levelu  
 
-## 1. Úvod  
-- Cíl dokumentace (usnadnění testování, nalezení chyb)  
-- Stručný popis hry a jejích hlavních mechanik  
-- Jaké aspekty hry budou testovány  
+## Kategorizace bugů dle závažnosti
+**Rozsah:** 0.5 strany  
+### Neintuitivní chování
+- Nejedná se o bug, ale chování je neočekávané
+- **Příklady:**
+  - Hráč by nečekal, že když v testu nezaškrtne políčko a dá „Odeslat“, tak se test odešle
+  - Cutscény lze přeskočit i pomocí kláves `E` nebo `NUM ENTER`
 
-## 2. Hardwarové požadavky  
-- Minimální požadavky  
-- Doporučené požadavky  
+### Lehký bug
+- Hráč může pokračovat ve hře, ale bug lehce narušuje hratelnost
+- **Příklady:**
+  - Hráč se krátce zasekne v textuře
+  - Tlačítko reaguje až na druhé kliknutí
 
-## 3. Instalace a spuštění hry  
-- Kde stáhnout a jak nainstalovat  
-- Jak spustit hru  
-- Případné parametry spouštění  
+### Těžký bug
+- Hráči nedovoluje pokračovat, narušuje hratelnost, ale hra stále běží
+- **Příklady:**
+  - Hráč se nemůže dostat z levelu
+  - Tlačítko nereaguje na stisknutí
+  - Hráč může používat neomezené množství itemů
+  - Hra se neukládá
+  - Přestala hrát hudba
 
-## 4. Herní mechaniky a očekávané chování  
-- Seznam klíčových mechanik hry  
-- Očekávané chování každé mechaniky  
-- Jak se projevují případné chyby  
+### Kritická chyba
+- Hra spadne
+- **Příklady:**
+  - Hráč použije item a hra spadne
+  - Hráč klikne na tlačítko a hra spadne
 
-## 5. Herní uložené pozice  
-- Kde se ukládají soubory s uloženou hrou  
-- Jak zálohovat a obnovit save  
-- Možnosti resetování hry  
+## Odeslání zprávy o bugu pomocí Google Forms/GitHub Issues
+**Rozsah:** 1-2 strany  
 
-## 6. Známé chyby a jejich reprodukce  
-- Seznam aktuálních bugů  
-- Kroky k jejich reprodukci  
-- Možná řešení nebo dočasné opravy  
+### Google Forms
+- **Poskytnout URL**
+- **Kolonky:**
+  - Název testera
+  - Hardware (CPU, GPU, RAM)
+  - Datum
+  - Číslo verze
+  - Závažnost bugu
+  - Popis bugu (co je špatně)
+  - Očekávané chování
+  - Jak bug vyvolat
+  - Přílohy (obrázek, video)
 
-## 7. Testovací scénáře  
-- Struktura testovacího scénáře (název, popis, kroky, očekávaný výsledek)  
-- Příklad jednoduchého testovacího scénáře  
-- Seznam testovacích scénářů pro různé části hry  
+### GitHub Issues
+- **Poskytnout URL**
+- **Sjednocený styl zprávy u bugu**
 
-## 8. Záznam chyb a reportování  
-- Jak zaznamenávat nalezené chyby (screenshoty, videa, logy)  
-- Kam a jak chyby hlásit  
-- Jaký formát by měl mít bug report  
+## Testovací scénáře
+**Rozsah:** minimálně 4 strany  
+Popis jednotlivých scénářů, využití pojmů z kapitoly o pojmech.
 
-## 9. Závěr  
-- Shrnutí důležitých bodů  
-- Kam směřovat dotazy nebo zpětnou vazbu  
+### Struktura scénáře
+- **Podrobný popis toho, co udělat** (kliknout sem, jít tam, použít tohle, nahrát tento save atd.)
+- **Očekávané chování**
+
+### Příklady scénářů
+- **Odeslání FPS logu** (testování výkonu)
+  - Jak spustit v nastavení zobrazovač FPS a logger
+  - Co vyplnit do zprávy o bugu
+- **Testování itemu „Perla“**
+  - Načíst `progress.json`, kde má hráč perlu 1000×
+  - Zkoušet perlu házet na různá místa
+- **Testování přehlcení skrz použití itemu**
+  - Rychlé volání funkce `UseItem()` opětovným mačkáním klávesy
+
+… *(další scénáře dle potřeby)*
