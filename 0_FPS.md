@@ -51,5 +51,5 @@ Do kolonky *CPU* v Google Docs přepište hodnotu v pravém horním rohu.
 6. Z kolonky *GPU* poté vložte název grafické garty (máte-li dvě, vložte do Google Forms obě)
 ![Informace o grafické kartě](spravce_uloh3.PNG)
 
-Verzi zvolte „Aplha Build“ a testovací scénář „0 - FPS Report“. Do souborů prosím nahrajte Váš log soubor.
+Verzi zvolte „Aplha Build“ a testovací scénář „0 - FPS Report“. Do souborů prosím nahrajte Váš *Player.log* soubor.
 Moc Vám děkuji za pomoc!
