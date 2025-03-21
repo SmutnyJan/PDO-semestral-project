@@ -46,7 +46,6 @@ Nejjednodušší cesta, jak získat požadovaná data, je použít Správce úlo
 4. Do kolonky *CPU* v Google Docs přepište hodnotu v pravém horním rohu.
 ![Název CPU](spravce_uloh1.PNG)
 5. Překlikněte se do sekce *Paměť* a odtud zkopírujte velikost rychlost paměti.
-Do kolonky *CPU* v Google Docs přepište hodnotu v pravém horním rohu.
 ![Informace o paměti](spravce_uloh2.PNG)
 6. Z kolonky *GPU* poté vložte název grafické garty (máte-li dvě, vložte do Google Forms obě)
 ![Informace o grafické kartě](spravce_uloh3.PNG)
