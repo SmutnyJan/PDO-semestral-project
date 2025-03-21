@@ -1,4 +1,6 @@
 # 0 - FPS Report
+> ⚠️ **Varování:** Pokud hru testujete na notebooku, mějte ho, prosím, připojený k napájení. Alternativně se ujistěte, že nemáte v rámci úspory baterie omezený výkon.
+
 ## 1. Stažení hry
 Hra je k dostání na [Google Disku](https://drive.google.com/file/d/1woxq1I0nIReDquTIzgc1BW-eeLqQle4a/view?usp=sharing). Hru si prosím stáhněte a archiv extrahujte na libovolné místo.
 
@@ -38,7 +40,7 @@ Uvnitř této složky najdete několik souborů. Nás zajímá soubor *Player.lo
 Odeslání logu probíhá přes [Google Forms formulář](https://docs.google.com/forms/d/e/1FAIpQLSfzvEbe9xRhHP0v4o4H3RiL3zle9bcdWONI3WErtF5CZ7aDdQ/viewform?usp=dialog).
 
 Vyplňte Vaše jméno a příjmení, dnešní datum, dále konfiguraci Vašeho PC.
-Nejjednodušší cesta, jak získat požadovaná data, je použít Správce úloh:
+Nejjednodušší cesta, jak získat požadovaná data, je použít Správce úloh (konkrétní pozice tlačítek se může lišit v závislosti na operačním systému):
 1. Otevřete Správce úloh pomocí klávesové zkratky CTRL + ALT + DELETE.
 2. Zapněte rozšíření režim Správce úloh.
 ![Zapnutí rozšířeného režimu Správce úloh](spravce_uloh0.PNG)
