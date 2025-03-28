@@ -43,14 +43,14 @@ Vyplňte Vaše jméno a příjmení, dnešní datum, dále konfiguraci Vašeho P
 Nejjednodušší cesta, jak získat požadovaná data, je použít Správce úloh (konkrétní pozice tlačítek se může lišit v závislosti na operačním systému):
 1. Otevřete Správce úloh pomocí klávesové zkratky CTRL + ALT + DELETE.
 2. Zapněte rozšíření režim Správce úloh.
-![Zapnutí rozšířeného režimu Správce úloh](spravce_uloh0.PNG)
+![Zapnutí rozšířeného režimu Správce úloh](images/spravce_uloh0.PNG)
 3. V horní kartě se překlikněte na sekci *Výkon* a potom na položku *Procesor*.
 4. Do kolonky *CPU* v Google Docs přepište hodnotu v pravém horním rohu.
-![Název CPU](spravce_uloh1.PNG)
+![Název CPU](images/spravce_uloh1.PNG)
 5. Překlikněte se do sekce *Paměť* a odtud zkopírujte velikost rychlost paměti.
-![Informace o paměti](spravce_uloh2.PNG)
+![Informace o paměti](images/spravce_uloh2.PNG)
 6. Z kolonky *GPU* poté vložte název grafické garty (máte-li dvě, vložte do Google Forms obě)
-![Informace o grafické kartě](spravce_uloh3.PNG)
+![Informace o grafické kartě](images/spravce_uloh3.PNG)
 
 Verzi zvolte „Aplha Build“ a testovací scénář „0 - FPS Report“. Do souborů prosím nahrajte Váš *Player.log* soubor.
 Moc Vám děkuji za pomoc!
