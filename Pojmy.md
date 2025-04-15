@@ -1,6 +1,5 @@
 # Ustanovení použitých pojmů v testovacích scénářích
-V popisu jednotlivých testovacích scénářů jsou použita různá slova a slovní spojení, která by mohla působit nejasně či nejednoznačně. Využití těchto pojmů ale značně zmenšuje robustnost celého návodu.
-Vysvětlení pojmů:
+
 - **Save** - Soubor JSON, který v sobě uchovává informace o nastavení (hlasitost zvuků a hudby, zobrazení FPS, ...) a o herním postupu (stav inventáře, naposledný uložený kontrolní bod)
 - **Vytvořit novou hru** - Spustit hru a kliknout na tlačítko „Nová hra“.
 - **Načíst hru** - Spustit hru a kliknout na tlačítko „Načíst“.
