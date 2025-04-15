@@ -11,10 +11,10 @@
 
 ## Spuštění hry
 1. Z [GitHub repozitáře](https://github.com/SmutnyJan/BP-Unity-Smutny/tree/main) si stáhněte kopii ve formátu ZIP.
-![Github stažení zip](images/github_zip.png)
+![Github stažení zip](obrazky/github_zip.png)
 
 > ⚠️ **Upozornění:** Ujistěte se, že se nacházíte na větvi „main“, která obsahuje aktuální plnou verzi hry.
-![Github větev release](images/github_release.png)
+![Github větev release](obrazky/github_release.png)
 2. Soubor ZIP vybalte do libovolného adresáře (například „Plocha“ pro snadný přístup).
 3. Ve vybalené složce se nachází složka *BP-UnityGame*, soubor *avg_fps.py* a složka *Build*. Ve složce *Build* je soubor *TULtimátní hra.exe*, což je spustitelná hra.
 4. Spusťte soubor *TULtimátní hra.exe*. Zobrazí se hlavní menu a díky prvotnímu spuštění se vygenerují i debug logy. Hru nyní vypnětě pomocí tlačítka *Ukončit*.
@@ -35,11 +35,9 @@ Nyní spusťte *TULtimátní hra.exe* a hru dohrajte (v menu stiskněte tlačít
 # Průběh testování
 Testování probíhá formou plnění předem definovaných testovacích scénářů. Každý scénář obsahuje přesný popis toho, co se od testera očekává, jaké situace má vyzkoušet a jaký by měl být očekávaný výstup.
 
-Součástí scénáře může být i uložený herní stav ve formátu JSON. Tento soubor je potřeba zkopírovat do složky s debug logy a přejmenovat na *progress.json*. Díky tomu je možné test provádět vždy za stejných podmínek, což zajišťuje konzistentní výsledky napříč různými testery.
+Součástí scénáře může být i uložený herní stav ve formátu JSON. Tento JSON je třeba zkopírovat a **před zapnutím hry** ním přepsat obsah souboru *progress.json*. Díky tomu je možné test provádět vždy za stejných podmínek, což zajišťuje konzistentní výsledky napříč různými testery.
 
 ## Pojmy
-Testování probíhá formou plnění předem definovaných testovacích scénářů. Každý scénář obsahuje jasný popis toho, co má tester provést, jaké funkce či situace otestovat a jaký by měl být očekávaný výstup.
-
 V některých scénářích je také přiložený herní stav ve formátu JSON. V takovém případě je potřeba otevřít soubor *progress.json* ve složce s debug logy a jeho obsah nahradit daty uvedenými u daného scénáře. Tím se zajistí, že testování probíhá vždy ve stejném výchozím stavu.
 
 [Slovník pojmů](./Pojmy.md)
@@ -102,28 +100,22 @@ Formulář [zde](https://forms.gle/y7WAztFuzfxBB5s16).
   - Typ chyby
   - Popis chyby
   - Postup reprodukce chyby
-  - Přílohy (obrázek, video)  
+  - Přílohy (debug logy)  
+
 
 Verzi lze zjistit na úvodní obrazovce menu:
-![Číslo verze](images/version_screenshot.png)
+![Číslo verze](obrazky/verze_screenshot.png)
 
+Do příloh vždy nahrajte soubor *Player.log*.
+> ⚠️ **Upozornění:** Před nahráním souboru *Player.log* hru vždy vypněte, aby se předešlo tomu, že nahrajete do formuláře zastaralý nebo nekompletní log.
 
 # Testovací scénáře
-**Rozsah:** minimálně 4 strany  
-Popis jednotlivých scénářů, využití pojmů z kapitoly o pojmech.
+Pořadí vykonávání scénářů je irelevantní a záleží pouze na vašich preferencích (co vás baví testovat a co nikoliv). Testy jsou pro lepší přehlednost rozděleny do tématických skupin podle toho, co přesně se ve scénáři testuje:
 
-## Struktura scénáře
-- **Podrobný popis toho, co udělat** (kliknout sem, jít tam, použít tohle, nahrát tento save atd.)
-- **Očekávané chování**
+## Testování výkonu
 
-## Příklady scénářů
-- **Odeslání FPS logu** (testování výkonu)
-  - Jak spustit v nastavení zobrazovač FPS a logger
-  - Co vyplnit do zprávy o bugu
-- **Testování itemu „Perla“**
-  - Načíst `progress.json`, kde má hráč perlu 1000×
-  - Zkoušet perlu házet na různá místa
-- **Testování přehlcení skrz použití itemu**
-  - Rychlé volání funkce `UseItem()` opětovným mačkáním klávesy
+## Výkon
+### [Měření FPS](./scenare/FPS/Měření%20FPS.md)
+## Hlavní menu
+### [Základní funkcionalita menu](./scenare/hlavni%20menu/Základní%20funkcionalita%20menu.md)
 
-… *(další scénáře dle potřeby)*
