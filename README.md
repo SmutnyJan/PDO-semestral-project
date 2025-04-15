@@ -11,33 +11,24 @@
 
 ### Spuštění hry
 1. Z [GitHub repozitáře](https://github.com/SmutnyJan/BP-Unity-Smutny/tree/release) si stáhněte kopii ve formátu ZIP.
-> ⚠️ **Upozornění:** Ujistěte se, že se nacházíte na větvi „release“, která obsahuje aktuální plnou verzi hry.
+> ⚠️ **Upozornění:** Ujistěte se, že se nacházíte na větvi „main“, která obsahuje aktuální plnou verzi hry.
 ![Github větev release](images/github_release.png)
 2. Soubor ZIP vybalte do libovolného adresáře (například „Plocha“ pro snadný přístup).
 3. Ve vybalené složce se nachází složka *BP-UnityGame*, soubor *avg_fps.py* a složka *Build*. Ve složce *Build* je soubor *TULtimátní hra.exe*, což je spustitelná hra.
-4. Spusťte soubor *TULtimátní hra.exe*. Zobrazí se hlavní menu a díky prvotnímu spuštění se vygenerují i debug logy. Hru nyní vypnětě.
+4. Spusťte soubor *TULtimátní hra.exe*. Zobrazí se hlavní menu a díky prvotnímu spuštění se vygenerují i debug logy. Hru nyní vypnětě pomocí tlačítka *Ukončit*.
 
 
 ### Otevření složky s debug logy a herními savy
-K pohodlnému testování je potřeba otevřít ještě složku, ve které se nachází debug logy (jsou součástí zprávy o herní chybě a o úspěšném testování) a herní savy (představují fázi hry, ve které se hráč nachází), které se budou u jednotlivých testovacích scénářů měnit na předdefinované hodnoty pro rychlejší testování.
+K pohodlnému testování je potřeba otevřít složku, ve které se nachází debug logy (je nutné je příkládat ke Google formulářům, přes které se odesílají informace o nalezených chybách) a herní savy (představují fázi hry, ve které se hráč nachází), které se budou u jednotlivých testovacích scénářů měnit na předdefinované hodnoty pro rychlejší testování.
 
-Tuto složku lze najít na *C:\\{jméno uživatele}\smutn\AppData\LocalLow\FM TUL Smutny Strecanska\TULtimátní hra*.
+Tuto složku lze najít na *C:\Users\{jméno uživatele}\AppData\LocalLow\FM TUL Smutny Strecanska\TULtimátní hra*.
 1. Pro zobrazení složky s herními savy nejprve otevřete složku *AppData* (nejsnadnější způsob je vyhledat „%AppData%“ pomocí vyhledávání Windows 10/11).
 2. Ve složce *AppData* vyberte *LocalLow*, dále *FM TUL Smutny Strecanska* a *TULtimátní hra*. Tato složka obsahuje soubory *Player.log*, *progress.json*, *settings.json* (za předpokladu, že hra byla alespoň jednou zapnuta).
 > ⚠️ **Upozornění:** Po potvrzení volby „%AppData%“ ve vyhledávači se otevře složka *Roaming*, která je potomkem složky *AppData*. Je tedy potřeba „jít“ o jednu složkovou úroveň výše.
 
+### Další kroky
+Nyní hru spusťte a dohrajte ji. Hru není nutno dohrát na jedno zapnutí. Herní postup je v průběhu hraní ukládán, takže si lze
 
-## Ustanovení použitých pojmů v testovacích scénářích
-V popisu jednotlivých testovacích scénářů jsou použita různá slova a slovní spojení, která by mohla působit nejasně či nejednoznačně. Využití těchto pojmů ale značně zmenšuje robustnost celého návodu.
-Vysvětlení pojmů:
-- **Vytvořit novou hru** - Spustit hru a kliknout na tlačítko „Nová hra“.
-- **Načíst hru** - Spustit hru a kliknout na tlačítko „Načíst“.
-- **Udělat nový save** - Smazat oba soubory JSON (*progress.json*, *settings.json*)
-- **Načíst save/nastavení -název savu-** - Nahrání obsahu uvedeného souboru JSON do *progress.json* (v případě načtení savu) nebo do *settings.json* (v případě načtení nastavení).
-  - `Načti nastavení invalid_microphone.json`.
-  - `Načti save final_level.json`.
-- **Shodit hru** - vypnout hru jinak, než přes herní UI (Správce úloh, ALT + F4, vypnutí PC, BSOD atd.)
-- **Jít do levelu -jméno levelu-** - Dojít na místo, které způsobí načtení daného levelu.
 
 ## Kategorizace bugů dle závažnosti
 ### Neintuitivní chování
