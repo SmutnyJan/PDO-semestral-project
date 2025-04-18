@@ -3,7 +3,7 @@ Scénář ověřuje základní funkčnost nabídky nastavení. Kontroluje správ
 
 
 ## Popis testovacího scénáře
-1. Po spuštění hry zvolte v hlavním menu možnost *Nastavení*
+1. Po spuštění hry zvolte v hlavním menu možnost *Nastavení*.
 2. Nastavení nabízí následující položky:
     - *Režim celé obrazovky*,
     - *Ukazatel FPS*,

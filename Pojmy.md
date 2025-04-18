@@ -8,6 +8,7 @@
   - Načíst hru
   - Nastavení
   - Ukončit hru
+**Lobby** - bblast ve hře, která slouží jako přechodový prostor mezi hlavním menu a jednotlivými herními levely.
 
 ## Slovesa
 - **Vytvořit novou hru** - Spustit hru a kliknout na tlačítko „Nová hra“.

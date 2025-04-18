@@ -37,6 +37,8 @@ Testování probíhá formou plnění předem definovaných testovacích scéná
 
 Součástí scénáře může být i uložený herní stav ve formátu JSON. Tento JSON je třeba zkopírovat a **před zapnutím hry** ním přepsat obsah souboru *progress.json*. Díky tomu je možné test provádět vždy za stejných podmínek, což zajišťuje konzistentní výsledky napříč různými testery.
 
+Pokud se po projití scénáře (ať už s pozitivním či negativním výsledkem) rozhodnete pokračovat dalším, který vyžaduje konkrétní herní stav, je třeba před přepsáním souboru *progress.json* hru vypnout.
+
 ## Pojmy
 V některých scénářích je také přiložený herní stav ve formátu JSON. V takovém případě je potřeba otevřít soubor *progress.json* ve složce s debug logy a jeho obsah nahradit daty uvedenými u daného scénáře. Tím se zajistí, že testování probíhá vždy ve stejném výchozím stavu.
 
@@ -115,8 +117,6 @@ Do příloh vždy nahrajte soubor *Player.log*.
 # Testovací scénáře
 Pořadí vykonávání scénářů je irelevantní a záleží pouze na vašich preferencích (co vás baví testovat a co nikoliv). Testy jsou pro lepší přehlednost rozděleny do tématických skupin podle toho, co přesně se ve scénáři testuje:
 
-## Testování výkonu
-
 ## Výkon
 ### [Měření FPS](./Scénáře/FPS/Měření%20FPS.md)
 
@@ -125,3 +125,6 @@ Pořadí vykonávání scénářů je irelevantní a záleží pouze na vašich 
 
 ## Nastavení
 ### [Základní funkcionalita nastavení](./Scénáře/Nastavení/Základní%20funkcionalita%20nastavení.md)
+
+## Lobby
+### [Lobby – pohyb a navigace k budově G](./Scénáře/Lobby/Lobby%20–%20pohyb%20a%20navigace%20k%20budově%20G.md)
