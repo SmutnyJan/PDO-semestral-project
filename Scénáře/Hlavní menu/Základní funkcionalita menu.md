@@ -1,6 +1,6 @@
 # Základní funkcionalita menu
+Tento scénář ověřuje základní funkčnost hlavního menu po spuštění hry bez existujícího uloženého postupu. Kontroluje se správné chování neaktivních tlačítek, přítomnost vizuálních efektů a funkčnost tlačítka pro ukončení hry.
 ## Herní stav:
-Následujícími hodnotami nahraďte obsah souboru *progress.json* („*CTRK + A -> CTRL + V*“):
 ```json
 {
     "SpawnScene": 0,
@@ -47,7 +47,7 @@ Následujícími hodnotami nahraďte obsah souboru *progress.json* („*CTRK + A
 
 ## Popis testovacího scénáře
 1. Po spuštění hry se objeví hlavní menu, které vypadá takto (číslo verze se může lišit):
-![Github stažení zip](../../obrazky/hlavni_menu.png)
+![Github stažení zip](../../Obrázky/hlavni_menu.png)
 
 2. Tlačítko „Načíst hru“ je deaktivované a kliknutí na něj nevytváří žádnou vizuální ani zvukovou zpětnou vazbu.
 

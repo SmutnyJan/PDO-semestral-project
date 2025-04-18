@@ -1,7 +1,15 @@
 # Ustanovení použitých pojmů v testovacích scénářích
 
+## Podstatná jména
 - **Save** - Soubor JSON, který v sobě uchovává informace o nastavení (hlasitost zvuků a hudby, zobrazení FPS, ...) a o herním postupu (stav inventáře, naposledný uložený kontrolní bod).
 - **Log** - Soubor *Player.log* obsahující informativní výpisy ze hry.
+- **Hlavní menu** - Menu, které se objeví po spuštění hry. Obsahuje tlačítka:
+  - Nová hra
+  - Načíst hru
+  - Nastavení
+  - Ukončit hru
+
+## Slovesa
 - **Vytvořit novou hru** - Spustit hru a kliknout na tlačítko „Nová hra“.
 - **Načíst hru** - Spustit hru a kliknout na tlačítko „Načíst“.
 - **Udělat nový save** - Smazat oba soubory JSON (*progress.json*, *settings.json*)

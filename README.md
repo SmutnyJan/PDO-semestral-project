@@ -1,5 +1,5 @@
 # TULtimární hra - příručka pro testery
-
+Tato příručka slouží jako průvodce pro testování hry *TULtimární hra*, která vzniká jako bakalářská práce na TUL. Cílem testování je identifikovat chyby, neintuitivní chování a optimalizovat hratelnost. Časová náročnost testování závisí na tom, kolik se rozhodnete projít testovacích scénářů.
 # Jak začít?
 ## Minimální systémové požadavky pro testování
 - Operační systém: Windows 10
@@ -10,11 +10,11 @@
 
 
 ## Spuštění hry
-1. Z [GitHub repozitáře](https://github.com/SmutnyJan/BP-Unity-Smutny/tree/main) si stáhněte kopii ve formátu ZIP.
-![Github stažení zip](obrazky/github_zip.png)
+1. Z [GitHub repozitáře](https://github.com/SmutnyJan/BP-Unity-Smutny/releases) si stáhněte kopii ve formátu ZIP. Zvolte nejnovější verzi.
+V přiložených souborech se nachází tyto tři položky:
+![Github větev release](Obrázky/github_release.png)
+Spustitelný soubor s hrou obsahuje *TULtimatni.hra.{verze}.zip*.
 
-> ⚠️ **Upozornění:** Ujistěte se, že se nacházíte na větvi „main“, která obsahuje aktuální plnou verzi hry.
-![Github větev release](obrazky/github_release.png)
 2. Soubor ZIP vybalte do libovolného adresáře (například „Plocha“ pro snadný přístup).
 3. Ve vybalené složce se nachází složka *BP-UnityGame*, soubor *avg_fps.py* a složka *Build*. Ve složce *Build* je soubor *TULtimátní hra.exe*, což je spustitelná hra.
 4. Spusťte soubor *TULtimátní hra.exe*. Zobrazí se hlavní menu a díky prvotnímu spuštění se vygenerují i debug logy. Hru nyní vypnětě pomocí tlačítka *Ukončit*.
@@ -81,30 +81,33 @@ V průběhu plnění testovacího scénáře mohou nastat dva případy:
 
 ### Protokol o úspěchu testovacího scénáře
 Formulář [zde](https://forms.gle/h2ScRxJ8PcTQHiRw8).
-- **Kolonky:**
-  - Jméno testera
-  - Přijmení testera
-  - Datum testování
-  - Verze
-  - Testovací scénář
-  - Přílohy (debug logy)
+
+**Kolonky:**
+- Jméno testera
+- Přijmení testera
+- Datum testování
+- Verze
+- Testovací scénář
+- Přílohy (debug logy)
 
 ### Protokol o chybě
 Formulář [zde](https://forms.gle/y7WAztFuzfxBB5s16).
-- **Kolonky:**
-  - Jméno testera
-  - Přijmení testera
-  - Datum testování
-  - Verze
-  - Testovací scénář
-  - Typ chyby
-  - Popis chyby
-  - Postup reprodukce chyby
-  - Přílohy (debug logy)  
+
+**Kolonky:**
+- Jméno testera
+- Přijmení testera
+- Datum testování
+- Verze
+- Testovací scénář
+- Typ chyby
+- Popis chyby
+- Postup reprodukce chyby
+- Přílohy (debug logy)  
 
 
 Verzi lze zjistit na úvodní obrazovce menu:
-![Číslo verze](obrazky/verze_screenshot.png)
+![Číslo verze](Obrázky/verze_screenshot.png)
+Ujistěte se, že testujete vždy nejnovější verzi. Dostupné verze lze najít zde: https://github.com/SmutnyJan/BP-Unity-Smutny/releases.
 
 Do příloh vždy nahrajte soubor *Player.log*.
 > ⚠️ **Upozornění:** Před nahráním souboru *Player.log* hru vždy vypněte, aby se předešlo tomu, že nahrajete do formuláře zastaralý nebo nekompletní log.
@@ -115,7 +118,10 @@ Pořadí vykonávání scénářů je irelevantní a záleží pouze na vašich 
 ## Testování výkonu
 
 ## Výkon
-### [Měření FPS](./scenare/FPS/Měření%20FPS.md)
-## Hlavní menu
-### [Základní funkcionalita menu](./scenare/hlavni%20menu/Základní%20funkcionalita%20menu.md)
+### [Měření FPS](./Scénáře/FPS/Měření%20FPS.md)
 
+## Hlavní menu
+### [Základní funkcionalita menu](./Scénáře/Hlavní%20menu/Základní%20funkcionalita%20menu.md)
+
+## Nastavení
+### [Základní funkcionalita nastavení](./Scénáře/Nastavení/Základní%20funkcionalita%20nastavení.md)
