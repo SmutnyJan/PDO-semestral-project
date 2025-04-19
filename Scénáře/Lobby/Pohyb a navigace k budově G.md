@@ -1,10 +1,10 @@
-# Lobby – pohyb a navigace k budově G
+# Pohyb a navigace k budově G
 Scénář ověřuje funkčnost pohybu v lobby, navigace a přechodu mezi scénami v herním lobby.
 ## Herní stav:
 ```json
 {
-    "SpawnScene": 0,
-    "GameState": 0,
+    "SpawnScene": 4,
+    "GameState": 1,
     "Money": 1000,
     "Items": [
         {
@@ -40,7 +40,9 @@ Scénář ověřuje funkčnost pohybu v lobby, navigace a přechodu mezi scénam
             "z": 0.0
         },
         "ChestsOpenedIndexes": [],
-        "ItemsRevert": []
+        "PlanesDestroyedIndexes": [],
+        "ItemsRevert": [],
+        "MoneyRevert": 0
     }
 }
 ```

@@ -8,7 +8,8 @@
   - Načíst hru
   - Nastavení
   - Ukončit hru
-**Lobby** - bblast ve hře, která slouží jako přechodový prostor mezi hlavním menu a jednotlivými herními levely.
+- **Lobby** - bblast ve hře, která slouží jako přechodový prostor mezi hlavním menu a jednotlivými herními levely.
+- **CRT** - CRT filtr vytváří měkký, analogově působící obraz s jemnými vodorovnými čárami, lehkým rozmazáním, září kolem světlých míst, zaoblenými rohy a ztmavenými okraji. 
 
 ## Slovesa
 - **Vytvořit novou hru** - Spustit hru a kliknout na tlačítko „Nová hra“.

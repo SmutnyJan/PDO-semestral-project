@@ -40,7 +40,9 @@ Tento scénář ověřuje základní funkčnost hlavního menu po spuštění hr
             "z": 0.0
         },
         "ChestsOpenedIndexes": [],
-        "ItemsRevert": []
+        "PlanesDestroyedIndexes": [],
+        "ItemsRevert": [],
+        "MoneyRevert": 0
     }
 }
 ```
@@ -49,8 +51,10 @@ Tento scénář ověřuje základní funkčnost hlavního menu po spuštění hr
 1. Po spuštění hry se objeví hlavní menu, které vypadá takto (číslo verze se může lišit):
 ![Github stažení zip](../../Obrázky/hlavni_menu.png)
 
-2. Tlačítko „Načíst hru“ je deaktivované a kliknutí na něj nevytváří žádnou vizuální ani zvukovou zpětnou vazbu.
+2. Na všechna tlačítka, pulzující nápis i obrázek na pozadí je aplikovaný CRT filtr. Na text s číslem verze nikoliv.
 
-3. Nápis „TULtimátní hra“ pulsuje (zvětšuje se a změnšuje).
+3. Tlačítko „Načíst hru“ je deaktivované a kliknutí na něj nevytváří žádnou vizuální ani zvukovou zpětnou vazbu.
 
-4. Po kliknutí na tlačítko „Ukončit hru“ se hra vypne.
+4. Nápis „TULtimátní hra“ pulsuje (zvětšuje se a změnšuje).
+
+5. Po kliknutí na tlačítko „Ukončit hru“ se hra vypne.

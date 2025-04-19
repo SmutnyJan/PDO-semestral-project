@@ -14,10 +14,8 @@ Tato příručka slouží jako průvodce pro testování hry *TULtimární hra*,
 V přiložených souborech se nachází tyto tři položky:
 ![Github větev release](Obrázky/github_release.png)
 Spustitelný soubor s hrou obsahuje *TULtimatni.hra.{verze}.zip*.
-
 2. Soubor ZIP vybalte do libovolného adresáře (například „Plocha“ pro snadný přístup).
-3. Ve vybalené složce se nachází složka *BP-UnityGame*, soubor *avg_fps.py* a složka *Build*. Ve složce *Build* je soubor *TULtimátní hra.exe*, což je spustitelná hra.
-4. Spusťte soubor *TULtimátní hra.exe*. Zobrazí se hlavní menu a díky prvotnímu spuštění se vygenerují i debug logy. Hru nyní vypnětě pomocí tlačítka *Ukončit*.
+3. Spusťte soubor *TULtimátní hra.exe*. Zobrazí se hlavní menu a díky prvotnímu spuštění se vygenerují i debug logy. Hru nyní vypnětě pomocí tlačítka *Ukončit*.
 
 
 ## Otevření složky s debug logy a herními savy
@@ -127,4 +125,5 @@ Pořadí vykonávání scénářů je irelevantní a záleží pouze na vašich 
 ### [Základní funkcionalita nastavení](./Scénáře/Nastavení/Základní%20funkcionalita%20nastavení.md)
 
 ## Lobby
-### [Lobby – pohyb a navigace k budově G](./Scénáře/Lobby/Lobby%20–%20pohyb%20a%20navigace%20k%20budově%20G.md)
+### [Pohyb a navigace k budově G](./Scénáře/Lobby/Pohyb%20a%20navigace%20k%20budově%20G.md)
+### [Lobby menu](./Scénáře/Lobby/Lobby%20menu.md)

@@ -1,0 +1,5 @@
+Přidat CRT test pro hlavní menu a nastavení
+
+Test Menu v lobby + vyzkoušení všech možností
+
+Testování cutscén
