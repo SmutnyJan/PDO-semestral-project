@@ -113,17 +113,11 @@ Do příloh vždy nahrajte soubor *Player.log*.
 > ⚠️ **Upozornění:** Před nahráním souboru *Player.log* hru vždy vypněte, aby se předešlo tomu, že nahrajete do formuláře zastaralý nebo nekompletní log.
 
 # Testovací scénáře
-Pořadí vykonávání scénářů je irelevantní a záleží pouze na vašich preferencích (co vás baví testovat a co nikoliv). Testy jsou pro lepší přehlednost rozděleny do tématických skupin podle toho, co přesně se ve scénáři testuje:
+Pořadí vykonávání scénářů je irelevantní a záleží pouze na vašich preferencích (co vás baví testovat a co nikoliv).
 
-## Výkon
-### [Měření FPS](./Scénáře/FPS/Měření%20FPS.md)
-
-## Hlavní menu
-### [Základní funkcionalita menu](./Scénáře/Hlavní%20menu/Základní%20funkcionalita%20menu.md)
-
-## Nastavení
-### [Základní funkcionalita nastavení](./Scénáře/Nastavení/Základní%20funkcionalita%20nastavení.md)
-
-## Lobby
-### [Pohyb a navigace k budově G](./Scénáře/Lobby/Pohyb%20a%20navigace%20k%20budově%20G.md)
-### [Lobby menu](./Scénáře/Lobby/Lobby%20menu.md)
+## [Měření FPS](./Scénáře/Měření%20FPS.md)
+## [Základní funkcionalita menu](./Scénáře/Základní%20funkcionalita%20menu.md)
+## [Základní funkcionalita nastavení](./Scénáře/Základní%20funkcionalita%20nastavení.md)
+## [Pohyb a navigace k budově G](./Scénáře/Pohyb%20a%20navigace%20k%20budově%20G.md)
+## [Lobby menu](./Scénáře/Lobby%20menu.md)
+## [Checkpointy](./Scénáře/Herní%20menu.md)

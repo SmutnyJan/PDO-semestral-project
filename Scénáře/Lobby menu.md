@@ -53,8 +53,8 @@ Scénář ověřuje funkčnost všech tlačítek v menu, které lze zobrazit v l
 3. Pohybovat se lze pomocí kláves WSAD nebo pomocí šipek.
 4. Zmáčknutím klávesy *Escape* vyvolejte menu.
 5. Menu nabízí tyto položky:
-    - *Zpět do menu*
-    - *Zavřít*
+    - *Zpět do menu*,
+    - *Zavřít*.
 6. Klikněte na možnost *Zavřít*. Menu zmizí.
 7. Opět stiskněte klávesu *Escape*. Menu se opět objeví.
 8. Opět stiskněte klávesu *Escape*. Menu opět zmizí.
