@@ -1,5 +1,5 @@
 # TULtimární hra - příručka pro testery
-Tato příručka slouží jako průvodce pro testování hry *TULtimární hra*, která vzniká jako bakalářská práce na TUL. Cílem testování je identifikovat chyby, neintuitivní chování a optimalizovat hratelnost. Časová náročnost testování závisí na tom, kolik se rozhodnete projít testovacích scénářů.
+Tato příručka slouží jako průvodce pro testování počítačové hry TULtimární hra, vyvíjené jako součást bakalářské práce na Technické univerzitě v Liberci. Cílem testování je identifikovat chyby, neintuitivní chování a optimalizovat hratelnost. Časová náročnost testování závisí na tom, kolik se rozhodnete projít testovacích scénářů.
 # Jak začít?
 ## Minimální systémové požadavky pro testování
 - Operační systém: Windows 10
@@ -115,9 +115,11 @@ Do příloh vždy nahrajte soubor *Player.log*.
 # Testovací scénáře
 Pořadí vykonávání scénářů je irelevantní a záleží pouze na vašich preferencích (co vás baví testovat a co nikoliv).
 
+
+## [Checkpointy](./Scénáře/Herní%20menu.md)
+## [Cutscény a test](./Scénáře/Cutscény%20a%20zkouška.md)
+## [Lobby menu](./Scénáře/Lobby%20menu.md)
 ## [Měření FPS](./Scénáře/Měření%20FPS.md)
+## [Pohyb a navigace k budově G](./Scénáře/Pohyb%20a%20navigace%20k%20budově%20G.md)
 ## [Základní funkcionalita menu](./Scénáře/Základní%20funkcionalita%20menu.md)
 ## [Základní funkcionalita nastavení](./Scénáře/Základní%20funkcionalita%20nastavení.md)
-## [Pohyb a navigace k budově G](./Scénáře/Pohyb%20a%20navigace%20k%20budově%20G.md)
-## [Lobby menu](./Scénáře/Lobby%20menu.md)
-## [Checkpointy](./Scénáře/Herní%20menu.md)
