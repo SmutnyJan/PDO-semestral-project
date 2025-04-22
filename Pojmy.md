@@ -15,4 +15,4 @@
 
 - **Log** – Soubor *Player.log* obsahující informativní výpisy ze hry.
 
-- **Save** – Soubor JSON, který v sobě uchovává informace o nastavení (hlasitost zvuků a hudby, zobrazení FPS, ...) a o herním postupu (stav inventáře, naposledný uložený kontrolní bod).
+- **Save** – Soubor JSON, který v sobě uchovává informace o nastavení (hlasitost zvuků a hudby, zobrazení FPS, ...) a o herním postupu (stav inventáře, naposledny uložený kontrolní bod).

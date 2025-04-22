@@ -117,9 +117,10 @@ Pořadí vykonávání scénářů je irelevantní a záleží pouze na vašich 
 
 
 ## [Checkpointy](./Scénáře/Herní%20menu.md)
-## [Cutscény a test](./Scénáře/Cutscény%20a%20zkouška.md)
+## [Cutscény a zkouška](./Scénáře/Cutscény%20a%20zkouška.md)
 ## [Lobby menu](./Scénáře/Lobby%20menu.md)
 ## [Měření FPS](./Scénáře/Měření%20FPS.md)
 ## [Pohyb a navigace k budově G](./Scénáře/Pohyb%20a%20navigace%20k%20budově%20G.md)
 ## [Základní funkcionalita menu](./Scénáře/Základní%20funkcionalita%20menu.md)
 ## [Základní funkcionalita nastavení](./Scénáře/Základní%20funkcionalita%20nastavení.md)
+## [Test předmětu - Písek času](./Scénáře/Test%20předmětu%20-%20Písek%20času.md)
