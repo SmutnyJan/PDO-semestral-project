@@ -1,9 +1,10 @@
-# Základní funkcionalita nastavení
+# Nastavení
 Scénář ověřuje základní funkčnost nabídky nastavení. Kontroluje správnou odezvu a funkčnost všech ovládacích prvků, včetně změny hlasitosti, výběru aktivního mikrofonu, přepnutí do celoobrazového režimu, aktivace nebo deaktivace vertikální synchronizace a zobrazení ukazatele FPS. Zároveň ověřuje, zda se tyto změny korektně uloží a projeví v chování hry.
 
 
 ## Popis testovacího scénáře
 1. Po spuštění hry zvolte v hlavním menu možnost *Nastavení*.
+
 2. Nastavení nabízí následující položky:
     - *Režim celé obrazovky*,
     - *Ukazatel FPS*,

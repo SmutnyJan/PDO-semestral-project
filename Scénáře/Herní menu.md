@@ -49,6 +49,7 @@ Scénář ověřuje funkčnost herního menu (menu v levelu), správného uklád
 
 ## Popis testovacího scénáře
 1. Po spuštění hry zvolte v hlavním menu možnost *Načíst hru*, čímž se načte připravený herní stav.
+
 2. Načte se scéna, ve které stojí hráč před Menzou.
 3. Pohybovat se lze pomocí kláves WSAD nebo pomocí šipek.
 4. Nad hráčem je černá šipka, která hráči ukazuje, kam má jít (v tomto herním stavu hráče vede ke dveřím budovy G).
@@ -72,7 +73,7 @@ Scénář ověřuje funkčnost herního menu (menu v levelu), správného uklád
 18. Opět přeskákejte k druhému kontrolnímu bodu.
 19. Přibližte se k truhle vpravo od kontrolního bodu. Z truhly začnou vypadávat věci.
 20. Věci, které vypadly z truhly, lze po několika sekundách sebrat (seberte je).
-21. Po sebrání se zvýší počet příslušných předmětů (každý o +1) a hodnota peněz (o +1)..
+21. Po sebrání se zvýší počet příslušných předmětů (každý o +1) a hodnota peněz (o +1).
 22. Pokračujte k dalšímu kontrolnímu bodu.
 23. Po projití kontrolním bodem si prohlédněte obsah inventáře a stav peněz (případně si tento stav zapište).
 24. Opět vyvolejte menu pomocí klávesy *Escape*.

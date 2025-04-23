@@ -48,21 +48,14 @@ Cílem testu je získat představu o náročnosti hry na běžném hardwaru. Je 
 
 ## Popis testovacího scénáře
 > ⚠️ **Upozornění:** Pokud hru testujete na notebooku, mějte ho, prosím, připojený k napájení. Alternativně se ujistěte, že nemáte v rámci úspory baterie omezený výkon.
-
 1. Po spuštění hry přejděte do nastavení a zaškrtněte „Ukazatel FPS“. Po zaškrtnutí se ukáže v levém horním rohu hodnota FPS. Klikněte na tlačítko „Uložit“.
 
 2. Po zapnutí logování FPS hru vypněte (ať už v hlavním menu nebo pomocí *ALT + F4*), aby se resetovaly logy.
-
 3. Hru zapněte.
-
 > ⚠️ **Varování:** Během sběru hodnot FPS ze hry „nepřeklikávejte“ ani nepoužívejte zkratky ALT + TAB. Narušilo by to integritu testování.
-
 4. Po spuštění hry zůstaňte 10 vteřin v hlavním menu, poté přejděte do nastavení a počkejte zde stejně dlouhou dobu (**nevypínejte ukazatel FPS ani nezapínejte VSync**).
-    
+
     Poté v hlavní nabídce klikněte na *Nová hra*. Objevíte se v lobby. Pomocí kláves WSAD se přesuňte po cestě k levému kraji scény (černá šipka ukazuje směr). Po dosažení levého okraje se objevíte u druhé budovy. Vkročte do dveří, na které ukazuje šipka.
-
 5. Po vkročení do dveří budovy G se objevíte v herním levelu. Zde zůstaňte 30 vteřin. S hrou nijak neinteragujte (nemačkejte žádné klávesy).
-
 6. Po uplynutí této doby se pomocí klávesy *Escape* a tlačítka *Zpět do menu* vraťte do hlavního menu.
-
 7. Hru vypněte pomocí tlačítka „Ukončit hru“.

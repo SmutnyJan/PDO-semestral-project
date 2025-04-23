@@ -1,4 +1,4 @@
-# Základní funkcionalita menu
+# Hlavní menu
 Tento scénář ověřuje základní funkčnost hlavního menu po spuštění hry bez existujícího uloženého postupu. Kontroluje se správné chování neaktivních tlačítek, přítomnost vizuálních efektů a funkčnost tlačítka pro ukončení hry.
 ## Herní stav:
 ```json
@@ -52,9 +52,6 @@ Tento scénář ověřuje základní funkčnost hlavního menu po spuštění hr
 ![Github stažení zip](../../Obrázky/hlavni_menu.png)
 
 2. Na všechna tlačítka, pulzující nápis i obrázek na pozadí je aplikovaný CRT filtr. Na text s číslem verze nikoliv.
-
 3. Tlačítko „Načíst hru“ je deaktivované a kliknutí na něj nevytváří žádnou vizuální ani zvukovou zpětnou vazbu.
-
 4. Nápis „TULtimátní hra“ pulsuje (zvětšuje se a změnšuje).
-
 5. Po kliknutí na tlačítko „Ukončit hru“ se hra vypne.

@@ -49,6 +49,7 @@ Scénář ověřuje funkčnost všech tlačítek v menu, které lze zobrazit v l
 
 ## Popis testovacího scénáře
 1. Po spuštění hry zvolte v hlavním menu možnost *Načíst hru*, čímž se načte připravený herní stav.
+
 2. Načte se scéna, ve které stojí hráč před Menzou.
 3. Pohybovat se lze pomocí kláves WSAD nebo pomocí šipek.
 4. Zmáčknutím klávesy *Escape* vyvolejte menu.

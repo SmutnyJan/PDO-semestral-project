@@ -3,6 +3,7 @@ Tento test ověřuje funkčnost úvodních a přechodových cutscén, včetně j
 
 ## Popis testovacího scénáře
 1. Spusťte hru a ujistěte se, že v hlavním menu slyšíte hudbu. Pokud ne, zkontrolujte nastavení hlasitosti hudby a případně ji zvyšte (nezapomeňte nastavení uložit).
+
 2. V hlavním menu klikněte na možnost *Nová hra*.
 3. Začne se přehrávat úvodní cutscéna a začne hrát jiná hudba než v menu.
 4. Stiskněte klávesu *Escape* pro přeskočení cutscény.

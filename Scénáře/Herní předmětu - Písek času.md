@@ -1,4 +1,4 @@
-# Test předmětu - Písek času
+# Herní předmět - Písek času
 Scénář ověřuje funkčnost předmětu Písek času, který lze použít v libovolném levelu.
 
 ## Herní stav:
@@ -75,6 +75,7 @@ Scénář ověřuje funkčnost předmětu Písek času, který lze použít v li
 
 ## Popis testovacího scénáře
 1. Po spuštění hry zvolte v hlavním menu možnost *Načíst hru*, čímž se načte připravený herní stav.
+
 2. Načte se scéna s levelem v budově G. Pomocí klávesy *Tab* si zobrazte inventář.
 3. V inventáři se 100 kusů předmětu „*Písek času*“.
 4. Klikněte na jeho ikonu (přesýpací hodiny) a zavřete inventář pomocí klávesy *Tab* nebo tlačítkem *Zavřít*.

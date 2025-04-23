@@ -49,6 +49,7 @@ Scénář ověřuje funkčnost pohybu v lobby, navigace a přechodu mezi scénam
 
 ## Popis testovacího scénáře
 1. Po spuštění hry zvolte v hlavním menu možnost *Načíst hru*, čímž se načte připravený herní stav.
+
 2. Načte se scéna, ve které stojí hráč před Menzou.
 3. Pohybovat se lze pomocí kláves WSAD nebo pomocí šipek.
 4. Nad hráčem je černá šipka, která hráči ukazuje, kam má jít (v tomto herním stavu hráče vede ke dveřím budovy G).
