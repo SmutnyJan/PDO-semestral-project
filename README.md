@@ -85,8 +85,6 @@ Formulář [zde](https://forms.gle/h2ScRxJ8PcTQHiRw8).
 **Kolonky:**
 - Jméno testera
 - Přijmení testera
-- Datum testování
-- Verze
 - Testovací scénář
 - Přílohy (debug logy)
 
@@ -96,8 +94,6 @@ Formulář [zde](https://forms.gle/y7WAztFuzfxBB5s16).
 **Kolonky:**
 - Jméno testera
 - Přijmení testera
-- Datum testování
-- Verze
 - Testovací scénář
 - Typ chyby
 - Popis chyby
@@ -105,8 +101,6 @@ Formulář [zde](https://forms.gle/y7WAztFuzfxBB5s16).
 - Přílohy (debug logy)  
 
 
-Verzi lze zjistit na úvodní obrazovce menu:
-![Číslo verze](Obrázky/verze_screenshot.png)
 Ujistěte se, že testujete vždy nejnovější verzi. Dostupné verze lze najít zde: https://github.com/SmutnyJan/BP-Unity-Smutny/releases.
 
 Do příloh vždy nahrajte soubor *Player.log*.

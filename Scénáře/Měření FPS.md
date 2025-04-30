@@ -48,7 +48,7 @@ Cílem testu je získat představu o náročnosti hry na běžném hardwaru. Je 
 
 ## Popis testovacího scénáře
 > ⚠️ **Upozornění:** Pokud hru testujete na notebooku, mějte ho, prosím, připojený k napájení. Alternativně se ujistěte, že nemáte v rámci úspory baterie omezený výkon.
-1. Po spuštění hry přejděte do nastavení a zaškrtněte „Ukazatel FPS“. Po zaškrtnutí se ukáže v levém horním rohu hodnota FPS. Klikněte na tlačítko „Uložit“.
+1. Po spuštění hry přejděte do nastavení a zaškrtněte „Ukazatel FPS“ a „Režim celé obrazovky“. Po zaškrtnutí se ukáže v levém horním rohu hodnota FPS. Klikněte na tlačítko „Uložit“.
 
 2. Po zapnutí logování FPS hru vypněte (ať už v hlavním menu nebo pomocí *ALT + F4*), aby se resetovaly logy.
 3. Hru zapněte.
