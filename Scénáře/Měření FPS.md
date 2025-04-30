@@ -55,7 +55,7 @@ Cílem testu je získat představu o náročnosti hry na běžném hardwaru. Je 
 > ⚠️ **Varování:** Během sběru hodnot FPS ze hry „nepřeklikávejte“ ani nepoužívejte zkratky ALT + TAB. Narušilo by to integritu testování.
 4. Po spuštění hry zůstaňte 10 vteřin v hlavním menu, poté přejděte do nastavení a počkejte zde stejně dlouhou dobu (**nevypínejte ukazatel FPS ani nezapínejte VSync**).
 
-    Poté v hlavní nabídce klikněte na *Nová hra*. Objevíte se v lobby. Pomocí kláves WSAD se přesuňte po cestě k levému kraji scény (černá šipka ukazuje směr). Po dosažení levého okraje se objevíte u druhé budovy. Vkročte do dveří, na které ukazuje šipka.
+    Poté v hlavní nabídce klikněte na *Nová hra*. Spustí se cutscény, které lze přeskočit klávesou *Escape* a test, který libovolně vyplňte. Poté se objevíte v lobby. Pomocí kláves WSAD se přesuňte po cestě k levému kraji scény (černá šipka ukazuje směr). Po dosažení levého okraje se objevíte u druhé budovy. Vkročte do dveří, na které ukazuje šipka.
 5. Po vkročení do dveří budovy G se objevíte v herním levelu. Zde zůstaňte 30 vteřin. S hrou nijak neinteragujte (nemačkejte žádné klávesy).
 6. Po uplynutí této doby se pomocí klávesy *Escape* a tlačítka *Zpět do menu* vraťte do hlavního menu.
 7. Hru vypněte pomocí tlačítka „Ukončit hru“.
